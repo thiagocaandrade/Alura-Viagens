@@ -22,7 +22,7 @@ public class ListaPacotesAdapter extends BaseAdapter {
     private final List<Pacote> pacotes;
     private Context context;
 
-    public ListaPacotesAdapter(List<Pacote> pacotes, Context context){
+    public ListaPacotesAdapter(List<Pacote> pacotes, Context context) {
         this.pacotes = pacotes;
         this.context = context;
     }
